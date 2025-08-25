@@ -228,4 +228,5 @@ if (botMessage) {
 }
 
 // ---------------- LOGIN ----------------
-client.login(BOT_TOKEN);
+client.login(process.env.TOKEN);
+
